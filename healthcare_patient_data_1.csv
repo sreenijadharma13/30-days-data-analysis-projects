@@ -1,0 +1,66 @@
+Patient ID,Age,Gender,Diagnosis,Admission Date,Discharge Date,Treatment Cost,Outcome,,,,,,,,,,,Patient ID,Treatment Cost
+P1002,18,Male,Diabetes,04:55.0,04:55.0,5382,Recovered,,,,,,,,,,,P1002,5382
+P1018,19,Female,Heart Disease,04:55.0,04:55.0,4247,Deceased,,,,,,,,,,,P1018,4247
+P1011,21,Female,Covid-19,04:55.0,04:55.0,5132,Deceased,,,,,,,,,,,P1011,5132
+P1009,23,Female,Diabetes,04:55.0,04:55.0,5168,Deceased,,,,,,,,,,,P1009,5168
+P1008,26,Other,Flu,04:55.0,04:55.0,851,Recovered,,,,,,,,,,,P1008,851
+P1019,31,Female,Covid-19,04:55.0,04:55.0,8193,Ongoing,,,,,,,,,,,P1019,8193
+P1005,33,Female,Flu,04:55.0,04:55.0,5822,Recovered,,,,,,,,,,,P1005,5822
+P1013,33,Male,Diabetes,04:55.0,04:55.0,6399,Deceased,,,,,,,,,,,P1013,6399
+P1006,38,Female,Flu,04:55.0,04:55.0,9983,Deceased,,,,,,,,,,,P1006,9983
+P1001,43,Female,Covid-19,04:55.0,04:55.0,974,Recovered,,,,,,,,,,,P1001,974
+P1015,54,Female,Diabetes,04:55.0,04:55.0,5488,Deceased,,,,,,,,,,,P1015,5488
+P1004,56,Female,Diabetes,04:55.0,04:55.0,4097,Recovered,,,,,,,,,,,P1004,4097
+P1014,63,Male,Heart Disease,04:55.0,04:55.0,8663,Recovered,,,,,,,,,,,P1014,8663
+P1012,66,Other,Diabetes,04:55.0,04:55.0,3335,Recovered,,,,,,,,,,,P1012,3335
+P1017,67,Male,Heart Disease,04:55.0,04:55.0,4194,Recovered,,,,,,,,,,,P1017,4194
+P1007,70,Male,Covid-19,04:55.0,04:55.0,6801,Deceased,,,,,,,,,,,P1007,6801
+P1010,70,Female,Covid-19,04:55.0,04:55.0,6989,Recovered,,,,,,,,,,,P1010,6989
+P1020,73,Female,Cancer,04:55.0,04:55.0,6880,Recovered,,,,,,,,,,,P1020,6880
+P1003,75,Other,Flu,04:55.0,04:55.0,7854,Ongoing,,,,,,,,,,,P1003,7854
+P1016,78,Other,Flu,04:55.0,04:55.0,2547,Recovered,,,,,,,,,,,P1016,2547
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Analysis:,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Average Treatment cost: ,5449.95,,,,,,,,,,,,,,,,,,
+Average age :,47.85,,,,,,,,,,,,,,,,,,
+Frequency distribution of age:,#REF!,<25,,,,,,,,,,,,,,,,,
+,,25-50,,,,,,,,,,,,,,,,,
+,,50-75,,,,,,,,,,,,,,,,,
+,,75-100,,,,,,,,,,,,,,,,,
+,,100+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Pivot table for frequency distribution:,,Row Labels,Count of Age,,,,,,,,Row Labels,Sum of Treatment Cost,,,,,,,
+,,0-24,4,,,,,,,,P1001,974,,,,,,,
+,,25-49,6,,,,,,,,P1002,5382,,,,,,,
+,,50-74,8,,,,,,,,P1003,7854,,,,,,,
+,,75-100,2,,,,,,,,P1004,4097,,,,,,,
+,,Grand Total,20,,,,,,,,P1005,5822,,,,,,,
+,,,,,,,,,,,P1006,9983,,,,,,,
+Pivot table to group by gender:,Row Labels,Count of Gender,,,,,,,,,P1007,6801,,,,,,,
+,Female,11,,,,,,,,,P1008,851,,,,,,,
+,Male,5,,,,,,,,,P1009,5168,,,,,,,
+,Other,4,,,,,,,,,P1010,6989,,,,,,,
+,Grand Total,20,,,,,,,,,P1011,5132,,,,,,,
+,,,,,,,,,,,P1012,3335,,,,,,,
+Pivot table of outcomes:,Row Labels,Count of Outcome,,,,,,,,,P1013,6399,,,,,,,
+,Deceased,7,,,,,,,,,P1014,8663,,,,,,,
+,Ongoing,2,,,,,,,,,P1015,5488,,,,,,,
+,Recovered,11,,,,,,,,,P1016,2547,,,,,,,
+,Grand Total,20,,,,,,,,,P1017,4194,,,,,,,
+,,,,,,,,,,,P1018,4247,,,,,,,
+Pivot Tbales:,Average of Treatment Cost,Column Labels,,,,,,,,,P1019,8193,,,,,,,
+,Row Labels,Female,Male,Other,Grand Total,,,,,,P1020,6880,,,,,,,
+,Cancer,6880,,,6880,,,,,,Grand Total,108999,,,,,,,
+,Covid-19,5322,6801,,5617.8,,,,,,,,,,,,,,
+,Diabetes,4917.666667,5890.5,3335,4978.166667,,,,,,,,,,,,,,
+,Flu,7902.5,,3750.666667,5411.4,,,,,,,,,,,,,,
+,Heart Disease,4247,6428.5,,5701.333333,,,,,,,,,,,,,,
+,Grand Total,5724.818182,6287.8,3646.75,5449.95,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Pivot for gender and tretment cost:,,Row Labels,Sum of Treatment Cost,,,,,,,,,,,,,,,,
+,,Female,62973,,,,,,,,,,,,,,,,
+,,Male,31439,,,,,,,,,,,,,,,,
+,,Other,14587,,,,,,,,,,,,,,,,
+,,Grand Total,108999,,,,,,,,,,,,,,,,
